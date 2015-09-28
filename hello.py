@@ -8,9 +8,7 @@
 # Copyright:   (c) Matt 2015
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-
-def greeting(msg):
-    print(msg)
+from helper import greeting
 
 def main():
     greeting("hello")
