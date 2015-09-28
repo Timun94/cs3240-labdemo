@@ -12,6 +12,7 @@ from helper import greeting
 
 def main():
     greeting("hello")
+    print("hey!")
 
 if __name__ == '__main__':
     main()

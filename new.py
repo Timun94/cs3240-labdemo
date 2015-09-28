@@ -8,12 +8,10 @@
 # Copyright:   (c) Matt 2015
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-def greeting(msg):
-    print(msg)
-    print("master version")
+from helper import greeting
 
 def main():
-    pass
+    greeting("Hey, this is new!")
 
 if __name__ == '__main__':
     main()
